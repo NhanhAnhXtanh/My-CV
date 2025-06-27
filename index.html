@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pham Nhat Anh - Resume</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Times+New+Roman:wght@400;700&display=swap');
+
+        body {
+            font-family: 'Times New Roman', serif;
+        }
+
+        .harvard-style {
+            max-width: 8.5in;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        @media print {
+            .harvard-style {
+                box-shadow: none;
+                max-width: none;
+            }
+        }
+
+        .avoid-break {
+            page-break-inside: avoid;
+            break-inside: avoid;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100 p-4">
+    <div id="resume-content" class="harvard-style p-8">
+        <!-- Header -->
+        <header class="text-center border-b-2 border-black pb-4 mb-6">
+            <h1 class="text-3xl font-bold tracking-wide mb-2">PHAM NHAT ANH</h1>
+            <div class="text-sm space-y-1">
+                <p>Phone: 0366261629 | Email: nhatanh08112004@gmail.com</p>
+                <p>GitHub: <a href="https://github.com/NhanhAnhXtanh"
+                        class="text-blue-800 border-b border-blue-800 pb-[1px]">NhanhAnhXtanh</a></p>
+            </div>
+        </header>
+
+        <!-- Objective -->
+        <section class="mb-6">
+            <h2 class="text-lg font-bold mb-2 border-b border-gray-400">OBJECTIVE</h2>
+            <p class="text-sm leading-relaxed">
+                Software engineering student with experience in Java, REST APIs and Spring Boot development. Looking for opportunities to develop backend systems and grow my technical skills.
+            </p>
+        </section>
+
+        <!-- Education -->
+        <section class="mb-6">
+            <h2 class="text-lg font-bold mb-2 border-b border-gray-400">EDUCATION</h2>
+            <div class="space-y-3">
+                <div>
+                    <div class="flex justify-between items-start">
+                        <div>
+                            <h3 class="font-bold text-sm">FPT University</h3>
+                            <p class="text-sm">Software Engineering - Bachelor's Degree</p>
+                            <p class="text-sm">GPA: 8.2/10</p>
+                        </div>
+                        <div class="text-right text-sm">
+                            <p>Ha Noi, Vietnam</p>
+                            <p>September 2022 - December 2026</p>
+                        </div>
+                    </div>
+                    <ul class="text-sm mt-2 ml-4 list-disc">
+                        <li>Relevant Coursework: Object-Oriented Programming, Data Structures & Algorithms, Java Web Application Development, Discrete Mathematics, Database Management, Software Requirements, Software Testing, Hibernate and Spring Framework</li>
+                        <li>Achievements: Good Student Semester 2, Good Student Semester 3, Good Student Semester 4</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="mb-6">
+            <h2 class="text-lg font-bold mb-2 border-b border-gray-400">PROJECTS</h2>
+
+            <!-- Project 1 -->
+            <div class="avoid-break mb-6">
+                <div class="flex justify-between items-baseline">
+                    <span class="font-bold text-base">CourseHub - Learning Management System (Team Project)</span>
+                    <span class="text-sm">May 2025 - Present</span>
+                </div>
+                <div class="mt-1.5">
+                    <p class="text-sm"><span class="font-bold">Tech Stack:</span></p>
+                    <p class="text-sm ml-4"><span class="font-bold">Frontend:</span> Next.js, TypeScript, Tailwind CSS, Shadcn UI (Radix UI + Tailwind), Axios, Vercel</p>
+                    <p class="text-sm ml-4"><span class="font-bold">Backend:</span> Spring Boot, MySQL, Redis, AWS S3, WebSocket, Docker (Docker Compose), Nginx, AWS EC2</p>
+                </div>
+                <p class="text-sm mt-2 font-bold">My Responsibilities:</p>
+                <ul class="list-disc ml-6 text-sm">
+                    <li>Designed and implemented data analytics module with comprehensive report generation and multi-format file export capabilities</li>
+                    <li>Built comprehensive review and rating management system to enhance user experience and course quality assessment</li>
+                    <li>Developed dynamic category management system with hierarchical organization for improved course discovery</li>
+                    <li>Collaborated cross-functionally on feature architecture, technical documentation, and peer code reviews</li>
+                </ul>
+                <p class="text-sm mt-2 font-bold">Links: 
+                    <a href="https://it4beginner.vercel.app/" class="text-blue-800 border-b border-blue-800 pb-[1px]">Live Demo</a> | 
+                    <a href="https://github.com/kl3inIT/course-hub-frontend" class="text-blue-800 border-b border-blue-800 pb-[1px]">Frontend</a> | 
+                    <a href="https://github.com/kl3inIT/coursehub-backend" class="text-blue-800 border-b border-blue-800 pb-[1px]">Backend</a>
+                </p>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="avoid-break mb-6">
+                <div class="flex justify-between items-baseline">
+                    <span class="font-bold text-base">Golden Finger - E-Commerce Platform (Team Project)</span>
+                    <span class="text-sm">February 2025 - March 2025</span>
+                </div>
+                <div class="mt-1.5">
+                    <p class="text-sm"><span class="font-bold">Tech Stack:</span> Jakarta EE, Java Servlets, JSP, SQL Server, JavaScript, Tailwind CSS, jQuery, VNPay Payment Gateway</p>
+                </div>
+                <p class="text-sm mt-2 font-bold">My Responsibilities:</p>
+                <ul class="list-disc ml-6 text-sm">
+                    <li>Implemented CRUD operations for product management with SQL Server database integration</li>
+                    <li>Developed contact page functionality for customer inquiries and communication</li>
+                </ul>
+                <p class="text-sm mt-2 font-bold">Link: 
+                    <a href="https://github.com/NhanhAnhXtanh/Golden-Finger" class="text-blue-800 border-b border-blue-800 pb-[1px]">GitHub Repository</a>
+                </p>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="mb-6 mt-8">
+            <h2 class="text-lg font-bold mb-2 border-b border-gray-400">SKILLS</h2>
+            <div class="text-sm space-y-2">
+                <div>
+                    <span class="font-bold">Programming Languages:</span>
+                    Java, JavaScript(Basic), HTML5, CSS3
+                </div>
+                <div>
+                    <span class="font-bold">Java Frameworks & Technologies:</span>
+                    Spring Boot, Spring MVC, Spring Data JPA, Hibernate ORM, Java Servlets, JSP, JSTL, Thymeleaf
+                </div>
+                <div>
+                    <span class="font-bold">Databases:</span>
+                    MySQL, Microsoft SQL Server
+                </div>
+                <div>
+                    <span class="font-bold">Tools & Platforms:</span>
+                    Git, GitHub, SonarQube (Code Quality), Postman, Maven
+                </div>
+                <div>
+                    <span class="font-bold">Languages:</span>
+                    English (Technical Documentation Reading)
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Print styles and PDF Export JS -->
+    <style>
+        .no-print {
+            display: block;
+        }
+
+        @media print {
+            body {
+                background: white !important;
+                padding: 0 !important;
+            }
+
+            .harvard-style {
+                padding: 0.5in !important;
+            }
+
+            .no-print {
+                display: none !important;
+            }
+        }
+    </style>
+
+    <script>
+        function exportToPDF() {
+            const button = event.target;
+            const originalText = button.innerHTML;
+            button.innerHTML = '⏳ Generating PDF...';
+            button.disabled = true;
+
+            const element = document.getElementById('resume-content');
+            const opt = {
+                margin: 0.5,
+                filename: 'PhamNhatAnh_Resume.pdf',
+                image: { type: 'jpeg', quality: 0.98 },
+                html2canvas: {
+                    scale: 5,
+                    useCORS: true,
+                    letterRendering: true
+                },
+                jsPDF: {
+                    unit: 'in',
+                    format: 'a4',
+                    orientation: 'portrait'
+                }
+            };
+
+            html2pdf().set(opt).from(element).save().then(function () {
+                button.innerHTML = originalText;
+                button.disabled = false;
+                showMessage('✅ PDF exported successfully!', 'success');
+            }).catch(function (error) {
+                button.innerHTML = originalText;
+                button.disabled = false;
+                showMessage('❌ Error exporting PDF. Please try again.', 'error');
+                console.error('PDF export error:', error);
+            });
+        }
+
+        function showMessage(message, type) {
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `fixed top-4 right-4 p-4 rounded-lg shadow-lg z-50 ${type === 'success' ? 'bg-green-500 text-white' : 'bg-red-500 text-white'}`;
+            messageDiv.textContent = message;
+            document.body.appendChild(messageDiv);
+            setTimeout(() => document.body.removeChild(messageDiv), 3000);
+        }
+
+        document.addEventListener('keydown', function (e) {
+            if (e.ctrlKey && e.key === 'e') {
+                e.preventDefault();
+                exportToPDF();
+            }
+        });
+    </script>
+</body>
+
+</html>
